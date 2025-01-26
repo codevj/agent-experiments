@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "agent-experiments"
+version = "0.1.0"
+description = "Experiments with agent"
+authors = ["VJ <codevijayra@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langgraph = "^0.2.67"
+langchain = "^0.3.15"
+langchain-ollama = "^0.2.2"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
